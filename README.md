@@ -5,4 +5,6 @@
   <h4>Course Link - <a href="https://www.udemy.com/course/the-complete-javascript-course/">Click Here</a></h4>
 
   <p>I have provied the pdf's of the assignments in the resource folder , you can solve the assignments by your own and can refer the solution given by me</p>
+  
+  <p>I will also be providing the CODING CHALLENGES and the source code for it so stay tuned for it ✌️. </p>
   <p>Show some love ❣️</p>
