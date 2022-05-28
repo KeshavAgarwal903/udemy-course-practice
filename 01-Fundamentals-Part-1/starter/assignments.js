@@ -30,13 +30,27 @@
 
 
 //LET , CONST AND VAR
+
 let language = "Hindi";
 
 //The value of the nation and isIsland will be const and never change
 
 const  country = 'India'; 
 const isIsland = false;
-const population = 130 ;
-population = 140;
 
-console.log(population);
+// console.log(population);
+
+// BASIC OPERATORS
+
+let populationIndia = 130 ;
+console.log(populationIndia/2);
+
+populationIndia = 131;
+console.log(populationIndia);
+
+let populationFinland = 6;
+console.log(populationIndia > populationFinland);
+
+let avgPopulation = 33;
+console.log(populationIndia < avgPopulation);
+
