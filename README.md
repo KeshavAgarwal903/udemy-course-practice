@@ -7,5 +7,6 @@
   <p>I have provied the pdf's of the assignments in the resource folder , you can solve the assignments by your own and can refer the solution given by me.
 However the solution of every assignments is also provided at the end of the pdf.</p>
   
-  <p>I will also be providing the CODING CHALLENGES and the source code for it so stay tuned for it ✌️. </p>
+  <p>I have also provided the pdf of the CODING CHALLENGES and the solution of the cding challenges is given in the respective location of the cource code .
+    Hope you would love it ✌️. </p>
   <p>Show some love ❣️</p>
