@@ -31,26 +31,37 @@
 
 //LET , CONST AND VAR
 
-let language = "Hindi";
+// let language = "Hindi";
 
 //The value of the nation and isIsland will be const and never change
 
-const  country = 'India'; 
-const isIsland = false;
+// const  country = 'India'; 
+// const isIsland = false;
 
 // console.log(population);
 
 // BASIC OPERATORS
 
-let populationIndia = 130 ;
-console.log(populationIndia/2);
+// let populationIndia = 130 ;
+// console.log(populationIndia/2);
 
-populationIndia = 131;
-console.log(populationIndia);
+// populationIndia = 131;
+// console.log(populationIndia);
 
-let populationFinland = 6;
-console.log(populationIndia > populationFinland);
+// let populationFinland = 6;
+// console.log(populationIndia > populationFinland);
 
-let avgPopulation = 33;
-console.log(populationIndia < avgPopulation);
+// let avgPopulation = 33;
+// console.log(populationIndia < avgPopulation);
 
+
+//  Taking Decisions: if / else Statements
+
+let indiaPopulation = 130;
+let portugalPopulation = 120;
+
+if(indiaPopulation > 33){
+  console.log(`Portugal's population is above average`)
+} else {
+  console.log(`Portugal's population is 22 million below average`)
+}
