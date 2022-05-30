@@ -65,29 +65,51 @@
 
 // Strings and Template Literals
 
-const firstName = 'Jonas';
-const job = 'Teacher';
-const birthYear = 1991;
-const year = 2025;
+// const firstName = 'Jonas';
+// const job = 'Teacher';
+// const birthYear = 1991;
+// const year = 2025;
 
 //Old Method
 
-const jonas = "I'm " + firstName + " , a " + (year - birthYear) + ' year old ' + job + ' !';
-console.log(jonas)
+// const jonas = "I'm " + firstName + " , a " + (year - birthYear) + ' year old ' + job + ' !';
+// console.log(jonas)
 
 // TEMPLATE STRING METHOD
 
-const jonasNew = `I'm ${firstName} , a ${year-birthYear} years old ${job} !`;
-console.log(jonasNew);
+// const jonasNew = `I'm ${firstName} , a ${year-birthYear} years old ${job} !`;
+// console.log(jonasNew);
 
 //MULtiple Line regular string
 
-console.log('string 1 \n\
-string 2\n\
-string 3');
+// console.log('string 1 \n\
+// string 2\n\
+// string 3');
 
 //MULtiple Line template string
 
-console.log(`string 1 
-string 2
-string 3`);
+// console.log(`string 1 
+// string 2
+// string 3`);
+
+// Taking Decisions: if / else Statements
+
+// const age = 17;
+// const isOldEnough = age >= 18;
+
+// if(age >= 18){
+//   console.log('Keshav can get a driving license' )
+// } else{
+//   const yearsLeft = 18 - age;
+//   console.log(`Wait for ${yearsLeft} year :)`)
+// }
+
+const birthYear = 1995;
+let century;
+
+if(birthYear <= 2000){
+  century = 20;
+}else {
+  century = 21;
+};
+console.log(century);
