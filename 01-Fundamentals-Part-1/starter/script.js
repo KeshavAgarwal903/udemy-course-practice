@@ -104,12 +104,21 @@
 //   console.log(`Wait for ${yearsLeft} year :)`)
 // }
 
-const birthYear = 1995;
-let century;
+// const birthYear = 1995;
+// let century;
 
-if(birthYear <= 2000){
-  century = 20;
-}else {
-  century = 21;
-};
-console.log(century);
+// if(birthYear <= 2000){
+//   century = 20;
+// }else {
+//   century = 21;
+// };
+// console.log(century);
+
+
+// Type Conversion and Coercion
+
+const inputYear = '1991'
+console.log(Number(inputYear) + 18);
+console.log(inputYear + 18);
+
+video time stamp - 5:00
