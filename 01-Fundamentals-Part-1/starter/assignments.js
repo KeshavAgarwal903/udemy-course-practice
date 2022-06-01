@@ -65,3 +65,17 @@ if(indiaPopulation > 33){
 } else {
   console.log(`Portugal's population is 22 million below average`)
 }
+
+// Type Conversion and Coercion
+
+// 1. 4
+// 2. 617
+// 3. 617
+// 4. 
+// 5. 5643
+
+console.log('9' - '5');
+console.log('19' - '13' + '17');
+console.log('19' - '13' + 17);
+console.log('123' < 57);
+console.log(5 + 6 + '4' + 9 - 4 - 2);
