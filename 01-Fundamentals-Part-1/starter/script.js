@@ -115,10 +115,19 @@
 // console.log(century);
 
 
-// Type Conversion and Coercion
+// Type Conversion 
 
 const inputYear = '1991'
 console.log(Number(inputYear) + 18);
 console.log(inputYear + 18);
 
-video time stamp - 5:00
+const firstName = 'Keshav';
+console.log(Number(firstName));
+
+// OutPut = NaN (Not a Number)
+
+console.log(typeof NaN);
+
+// Type Coercion
+
+console.log('I am ' + 23 + ' years old');
