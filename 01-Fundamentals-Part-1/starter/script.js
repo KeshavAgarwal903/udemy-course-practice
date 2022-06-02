@@ -117,17 +117,52 @@
 
 // Type Conversion 
 
-const inputYear = '1991'
-console.log(Number(inputYear) + 18);
-console.log(inputYear + 18);
+// const inputYear = '1991'
+// console.log(Number(inputYear) + 18);
+// console.log(inputYear + 18);
 
-const firstName = 'Keshav';
-console.log(Number(firstName));
+// const firstName = 'Keshav';
+// console.log(Number(firstName));
 
-// OutPut = NaN (Not a Number)
+// // OutPut = NaN (Not a Number)
 
-console.log(typeof NaN);
+// console.log(typeof NaN);
 
 // Type Coercion
 
-console.log('I am ' + 23 + ' years old');
+// console.log('I am ' + 23 + ' years old');
+
+//Truthy and Falsy Values(Boolean)
+// 5 falsy values : 0, '' , undefined , null , NaN
+
+// Type coertion in if/else statement 
+
+// const money = 10;
+
+// if(money){
+//   console.log(`Don't spend it all !`)
+// }else{
+//   console.log(`Get a job and save some money !`)
+// }
+
+// It is also used to check if any variable is defined or not 
+
+// let height;
+// if(height){
+//   console.log(`YAY! height is defined`)
+// }else{
+//   console.log(`Shit , height is not defined`)
+// }
+
+// Equality Operators: == vs. ===
+
+console.log('18' == 18); // loose
+console.log('18' === 18); // strict
+
+const fav = Number(prompt(`Whats your fav number ??`));
+console.log(fav);
+console.log(typeof fav);
+
+if(fav === 23){
+  console.log(`Cool! 23 is an amazng number`)
+}
