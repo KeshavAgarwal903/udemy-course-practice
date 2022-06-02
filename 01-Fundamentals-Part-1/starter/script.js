@@ -156,13 +156,13 @@
 
 // Equality Operators: == vs. ===
 
-console.log('18' == 18); // loose
-console.log('18' === 18); // strict
+// console.log('18' == 18); // loose
+// console.log('18' === 18); // strict
 
-const fav = Number(prompt(`Whats your fav number ??`));
-console.log(fav);
-console.log(typeof fav);
+// const fav = Number(prompt(`Whats your fav number ??`));
+// console.log(fav);
+// console.log(typeof fav);
 
-if(fav === 23){
-  console.log(`Cool! 23 is an amazng number`)
-}
+// if(fav === 23){
+//   console.log(`Cool! 23 is an amazng number`)
+// }
