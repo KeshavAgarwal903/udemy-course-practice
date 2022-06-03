@@ -101,7 +101,7 @@
 //   console.log('Keshav can get a driving license' )
 // } else{
 //   const yearsLeft = 18 - age;
-//   console.log(`Wait for ${yearsLeft} year :)`)
+//   console.log(`Wait  for ${yearsLeft} year :)`)
 // }
 
 // const birthYear = 1995;
@@ -166,3 +166,32 @@
 // if(fav === 23){
 //   console.log(`Cool! 23 is an amazng number`)
 // }
+
+// Boolean Logic and Logical Operators
+
+
+// Taking decisions with Boolean Logic
+
+
+
+
+const hasDiversLicense = true; //A
+const hasGoodVision = true; //B
+const isTired = true; //C
+
+//A
+console.log(hasDiversLicense && hasGoodVision);
+
+console.log(hasDiversLicense || hasGoodVision);
+
+console.log(!hasDiversLicense);
+
+//B
+console.log(hasDiversLicense && hasGoodVision && isTired);
+
+//C
+if(hasDiversLicense && hasGoodVision && !isTired){
+  console.log(`Sarah can drive really well !!`)
+}else{
+  console.log(`Sarah should take rest !`)
+}
