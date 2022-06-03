@@ -57,14 +57,14 @@
 
 //  Taking Decisions: if / else Statements
 
-let indiaPopulation = 130;
-let portugalPopulation = 120;
+// let indiaPopulation = 130;
+// let portugalPopulation = 120;
 
-if(indiaPopulation > 33){
-  console.log(`Portugal's population is above average`)
-} else {
-  console.log(`Portugal's population is 22 million below average`)
-}
+// if(indiaPopulation > 33){
+//   console.log(`Portugal's population is above average`)
+// } else {
+//   console.log(`Portugal's population is 22 million below average`)
+// }
 
 // Type Conversion and Coercion
 
@@ -82,16 +82,16 @@ if(indiaPopulation > 33){
 
 //  Equality Operators: == vs. ===
 
-const numNeighbours = Number( prompt(`'How many neighbour countries does your country 
-have?`));
-console.log(typeof numNeighbours);
+// const numNeighbours = Number( prompt(`'How many neighbour countries does your country 
+// have?`));
+// console.log(typeof numNeighbours);
 
-if(numNeighbours === 1){
-  console.log(`Only 1 border!`)
-} else if (numNeighbours > 1){
-  console.log(`More than 1 border`)
-}else{
-  console.log(`No borders!`)
-}
+// if(numNeighbours === 1){
+//   console.log(`Only 1 border!`)
+// } else if (numNeighbours > 1){
+//   console.log(`More than 1 border`)
+// }else{
+//   console.log(`No borders!`)
+// }
 
 // we should strict operatoe because loose operator will create many unexepected bugs into the codes !!
