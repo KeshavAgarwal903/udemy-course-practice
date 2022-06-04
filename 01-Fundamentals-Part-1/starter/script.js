@@ -175,23 +175,23 @@
 
 
 
-const hasDiversLicense = true; //A
-const hasGoodVision = true; //B
-const isTired = true; //C
+// const hasDiversLicense = true; //A
+// const hasGoodVision = true; //B
+// const isTired = true; //C
 
 //A
-console.log(hasDiversLicense && hasGoodVision);
+// console.log(hasDiversLicense && hasGoodVision);
 
-console.log(hasDiversLicense || hasGoodVision);
+// console.log(hasDiversLicense || hasGoodVision);
 
-console.log(!hasDiversLicense);
+// console.log(!hasDiversLicense);
 
 //B
-console.log(hasDiversLicense && hasGoodVision && isTired);
+// console.log(hasDiversLicense && hasGoodVision && isTired);
 
 //C
-if(hasDiversLicense && hasGoodVision && !isTired){
-  console.log(`Sarah can drive really well !!`)
-}else{
-  console.log(`Sarah should take rest !`)
-}
+// if(hasDiversLicense && hasGoodVision && !isTired){
+//   console.log(`Sarah can drive really well !!`)
+// }else{
+//   console.log(`Sarah should take rest !`)
+// }
