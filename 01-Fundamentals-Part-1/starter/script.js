@@ -195,3 +195,8 @@
 // }else{
 //   console.log(`Sarah should take rest !`)
 // }
+
+
+//  The switch Statement
+
+//  1:36
