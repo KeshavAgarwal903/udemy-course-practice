@@ -179,17 +179,17 @@
 // const hasGoodVision = true; //B
 // const isTired = true; //C
 
-//A
+// A
 // console.log(hasDiversLicense && hasGoodVision);
 
 // console.log(hasDiversLicense || hasGoodVision);
 
 // console.log(!hasDiversLicense);
 
-//B
+// B
 // console.log(hasDiversLicense && hasGoodVision && isTired);
 
-//C
+// C
 // if(hasDiversLicense && hasGoodVision && !isTired){
 //   console.log(`Sarah can drive really well !!`)
 // }else{
