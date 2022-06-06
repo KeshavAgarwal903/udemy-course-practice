@@ -180,7 +180,7 @@
 // const isTired = true; //C
 
 // A
-// console.log(hasDiversLicense && hasGoodVision);
+// console.log(hasDiversLicense &&  hasGoodVision);
 
 // console.log(hasDiversLicense || hasGoodVision);
 
@@ -199,4 +199,47 @@
 
 //  The switch Statement
 
-//  1:36
+const day = `Monday`;
+
+switch(day){
+  case 'Monday': // day === 'Monday'
+   console.log(`Plan the course`);
+   console.log(`Go to the gym !`);
+   break;
+  case 'Tuesday': // day === 'Tuesday'
+    console.log(`Go to a date`);
+    console.log(`Virtual meetup with friends ;)`);
+    break;
+  case 'Wednesday':
+  case 'Thursday':
+    console.log(`Solve the queries and doubts !`); // This will be executed for both wednesday and thursday !
+    break;
+  case 'Friday':
+    console.log(`Record videos and solve bugs`);
+    break;
+  case 'Saturday':
+  case 'Sunday':
+    console.log(`Chill with friends and family :)`);
+    break;
+  default:
+    // executed when all the above cases are false 
+    console.log(`Not a valid day!`);
+}
+
+// The switch statement converted into if/else statement :)
+
+if(day === `Monday`){
+  console.log(`Plan the course & go to the gym`);
+}else if(day === `Tuesday`){
+  console.log(`Go to a date & virtual meetup wit friends`);
+}else if (day === `Wedneday` || day === `Thursday`){
+  console.log(
+    `write code examples`
+  );
+}else if (day === `Friday`){
+  console.log(`Record videos and solve bugs`);
+}else if(day === `Saturday` ||day === `Sunday`){
+  console.log(`Enjoy the weekend`);
+}else{
+  console.log(`Not a valid day`);
+}
