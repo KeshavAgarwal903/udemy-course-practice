@@ -95,3 +95,49 @@
 // }
 
 // we should strict operatoe because loose operator will create many unexepected bugs into the codes !!
+
+// Logical Operators
+
+// const language = `hindi`;
+// const population = 30;
+// const isIsland = false;
+
+// if(language === `english` && population < 50 && isIsland === false){
+//   console.log(`You should live in Portugal :)`);
+// }else {
+//   console.log(`Portugal does not meet your criteria :(`);
+// }
+
+// //  The switch Statement
+
+// switch(language){
+//   case `chinese`:
+//   case `mandarin`:
+//     console.log(`MOST number of native speakers!`);
+//     break;
+  
+//   case `spanish`:
+//     console.log(`2nd place in number of native speakers`);
+//     break;
+   
+//   case `english`:
+//     console.log(`3rd place`);
+//     break;
+
+//   case `hindi`:
+//     console.log(`Number 4`);
+//     break;
+
+//   case `arabic`:
+//     console.log(`5th most spoken language`);
+//     break;
+
+//   default:
+//     console.log(`Great language too :D`)
+// }
+
+// // The Conditional (Ternary) Operator
+
+// const population1 = 130;
+
+// population1 > 33 ? console.log(`Portugal's population is above average`) : console.log(`Portugal's population is below average`)
