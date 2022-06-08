@@ -1,15 +1,15 @@
 // 🚀Coding Challenge Solution #1
 
-let massMark = 78;
-let heigthMark = 1.69;
+// let massMark = 78;
+// let heigthMark = 1.69;
 
-let markBMI = massMark / heigthMark ** 2;
+// let markBMI = massMark / heigthMark ** 2;
 // console.log(markBMI);
 
-let massJohn = 92;
-let heightJohn = 1.95;
+// let massJohn = 92;
+// let heightJohn = 1.95;
 
-let johnBMI = massJohn / heightJohn ** 2;
+// let johnBMI = massJohn / heightJohn ** 2;
 // console.log(johnBMI);
 
 // let markHigherBMI = markBMI > johnBMI;
@@ -67,3 +67,11 @@ let johnBMI = massJohn / heightJohn ** 2;
 // }else if(avgScoreDolphins === avgScoreKoalas , avgScoreDolphins && avgScoreKoalas && minimumScore){
 //   console.log(`No team wins the trophy B`)
 // }
+
+
+// CODING CHALLENGES #4
+
+let billValue = 430;
+const tip = billValue >= 50 && billValue <= 300 ? (15/100)*billValue : (20/100)*billValue;
+
+console.log(`The bill was ${billValue} and the tip was ${tip}, and the total value is ${billValue + tip} :)`);
