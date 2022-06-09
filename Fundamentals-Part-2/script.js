@@ -2,41 +2,42 @@
 
 // FUNCTIONS
 
-function logger(){
-  console.log(`My name is JavaScript:)`)
-}
+// function logger(){
+//   console.log(`My name is JavaScript:)`)
+// }
 
 // calling / running / invoking function
-logger();
-logger();
-logger();
+// logger();
+// logger();
+// logger();
 
 
 // A function can input the data , run the code and return the output
 
 //Functions as a machine
 
-function fruitProcessor(apples , oranges){
-  console.log(apples , oranges);
+// function fruitProcessor(apples , oranges){
+//   console.log(apples , oranges);
 
-  const juice = `Juice with ${apples} apples and ${oranges} oranges :D`;
+//   const juice = `Juice with ${apples} apples and ${oranges} oranges :D`;
 
-  return juice // Use to return any value from a function
-}
+//   return juice // Use to return any value from a function
+// }
 
 // Running the function fruitProcessor
 
-fruitProcessor(5 , 0);// These are the input of the parameters called arguments i.e., apples and oranges !!
+// fruitProcessor(5 , 0);// These are the input of the parameters called arguments i.e., apples and oranges !!
 
 //IF WE WANT TO USE THE VALUE THAT IS RETURNED WE NEED TO STORE IT INTO A VARAIBLE
 
-const appleJuice = fruitProcessor(5 , 0);
-console.log(appleJuice);
+// const appleJuice = fruitProcessor(5 , 0);
+// console.log(appleJuice);
 
 // WE CAN ALSO WRITE 
-console.log(fruitProcessor(5 , 0));
+// console.log(fruitProcessor(5 , 0));
 
 //WE CAN USE FUNCTIONS WITH DIFFERENT VALUES AS MANY TIMES WE WANT
 
-const appleOrangeJuice = fruitProcessor(12 , 6);
-console.log(appleOrangeJuice);
+// const appleOrangeJuice = fruitProcessor(12 , 6);
+// console.log(appleOrangeJuice);
+
