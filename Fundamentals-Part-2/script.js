@@ -54,3 +54,19 @@
 // const age2 = calcAge2(1991);
 
 // console.log(age1 , age2);
+
+// ARROW FUNCTION
+
+// const calcAge = birthYear => 2037 - birthYear;
+
+// const age = calcAge(1991);
+// console.log(age);
+
+
+// const yearsUntilRetirement = birthYear => {
+//   const age = 2017 - birthYear;
+//   const retirement = 65 - age;
+//   return retirement;
+// }
+
+// console.log(yearsUntilRetirement(1991));
