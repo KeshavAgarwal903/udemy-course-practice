@@ -70,3 +70,20 @@
 // }
 
 // console.log(yearsUntilRetirement(1991));
+
+// FUNCTIONS CALLING OTHER FUNCTIONS
+
+//* LETS ASSUME THAT THE FRUIT PROCESSOR CAN ONLY PROCESS FOOD WITH SMALLER PIECES
+
+// const cutPieces = function (fruit){
+//   return fruit * 4;
+// }
+
+// const fruitProcessor = function (apples , oranges){
+//   const applePieces = cutPieces(apples);
+//   const orangePieces = cutPieces(oranges);
+
+//   const juice = `Juice with ${applePieces} apples and ${orangePieces} oranges.`
+//   return juice;
+// }
+// console.log(fruitProcessor(1,1));
