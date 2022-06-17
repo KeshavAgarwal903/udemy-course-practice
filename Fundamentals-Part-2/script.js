@@ -113,3 +113,11 @@ console.log(friends.length);
 
 //WE CAN ALSO GET THE LAST ELEMENT OF THE ARRAY IN THE FOLLOWING WAY
 console.log(friends[friends.length - 1]);
+
+//MANIPULATING THE DATA IN A ARRAY
+friends[2] = 'Jay';
+console.log(friends);
+
+const firstName = `Keshav`;
+const jonas = [firstName , 'Agarwal' , 2037-2022 , 'student' , friends];
+console.log(jonas); 
