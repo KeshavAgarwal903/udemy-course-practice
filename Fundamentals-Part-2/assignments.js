@@ -51,3 +51,11 @@
 // }
 
 // console.log(describePopulation(`china` , 1441));
+
+// Introduction to Arrays
+
+// const populations = [130 , 150 , 80 , 15];
+
+// const percentageOfWorld2 = function(population1){
+//   return (population1/7900)*100
+// }
