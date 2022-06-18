@@ -16,3 +16,30 @@
 // }
 
 // console.log(checkWinner(averageDolphins , averageKoalas));
+
+//CODING CHALLENGES #2
+
+// function calcTip(billAmount){
+//   if(billAmount >= 50 && billAmount <= 300){
+//     const tipAmount = (15/100)*billAmount
+//     console.log(tipAmount);
+//   }else{
+//     const tipAmount1 = (20/100)*billAmount
+//     console.log(tipAmount1);
+//   }
+// } 
+// const bills = [125 , 555 , 44];
+// const tips = [tipAmount , tipAmount];
+// const total = [bills + tipAmount && bills + tipAmount1];
+
+
+// calcTip(bills[0]);
+// console.log(calcTip(bills[1]));
+// console.log(calcTip(bills[2]));
+
+// console.log(bills , tips , total);
+
+//VIDEO SOLUTION
+
+
+
