@@ -91,33 +91,33 @@
 // INTRODUCTION TO ARRAYS
 
 // Variables
-const friends1 = `michael`;
-const friends2 = `steven`;
-const friends3 = `peter`;
+// const friends1 = `michael`;
+// const friends2 = `steven`;
+// const friends3 = `peter`;
 
 //ARRAY METHOD
 
-const friends = ['michael' , 'steven' , 'peter'];
-console.log(friends);
+// const friends = ['michael' , 'steven' , 'peter'];
+// console.log(friends);
 
 //DIFFERENT WAY OF CREATING ARRAY
-const year = new Array(1991 , 2000 , 2022 , 2037);
-console.log(year);
+// const year = new Array(1991 , 2000 , 2022 , 2037);
+// console.log(year);
 
 //CALLING AN ARRAY
-console.log(friends[0]);//Since array starts from "0"
-console.log(friends[2]);
+// console.log(friends[0]);//Since array starts from "0"
+// console.log(friends[2]);
 
 //TO GET THE NO. OF ELEMENTS PRESENT IN THE ARRAY
-console.log(friends.length);
+// console.log(friends.length);
 
 //WE CAN ALSO GET THE LAST ELEMENT OF THE ARRAY IN THE FOLLOWING WAY
-console.log(friends[friends.length - 1]);
+// console.log(friends[friends.length - 1]);
 
 //MANIPULATING THE DATA IN A ARRAY
-friends[2] = 'Jay';
-console.log(friends);
+// friends[2] = 'Jay';
+// console.log(friends);
 
-const firstName = `Keshav`;
-const jonas = [firstName , 'Agarwal' , 2037-2022 , 'student' , friends];
-console.log(jonas); 
+// const firstName = `Keshav`;
+// const jonas = [firstName , 'Agarwal' , 2037-2022 , 'student' , friends];
+// console.log(jonas); 
