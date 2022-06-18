@@ -121,3 +121,40 @@
 // const firstName = `Keshav`;
 // const jonas = [firstName , 'Agarwal' , 2037-2022 , 'student' , friends];
 // console.log(jonas); 
+
+// Basic Array Operations (Methods)
+
+const friends = ['michael' , 'steven' , 'peter'];
+
+//*ADDS ELEMENTS
+
+//PUSH - Adds a new element at the end of the array 
+friends.push('jay');
+console.log(friends); 
+
+//UNSHIFT - Adds an element to the front of an array 
+
+friends.unshift(`Michael`);
+console.log(friends);
+
+//* DELETE ELEMENTS
+
+//POP - Remove the last element of the array !
+
+friends.pop(); // No arguments required
+console.log(friends);
+// Can be used multiple times to remove the preceding last element
+
+//SHIFT - Remove the first element fron an array
+
+friends.shift();
+console.log(friends)
+
+// indexOf - We can find the position of the element from an array
+
+console.log(friends.indexOf(`michael`));
+
+// includes - To check if an element is present in the array !
+
+console.log(friends.includes(`steven`));//true
+console.log(friends.includes(`bob`));//false
