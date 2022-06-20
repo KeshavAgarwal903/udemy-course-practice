@@ -62,24 +62,45 @@
 
 // Basic Array Operations (Methods)
 
-const neighbours = [`China` , `Pakistan` , `Sri lanka`, `Sweden`];
+// const neighbours = [`China` , `Pakistan` , `Sri lanka`, `Sweden`];
 
-neighbours.push(`Utopia`);
-console.log(neighbours)
+// neighbours.push(`Utopia`);
+// console.log(neighbours)
 
-neighbours.pop();
-console.log(neighbours);
+// neighbours.pop();
+// console.log(neighbours);
 
-if(neighbours.includes(`Germany`)){
-  console.log(`Its a central European country :/`)
-}else{
-  console.log(`Probably not a central European country :D`)
+// if(neighbours.includes(`Germany`)){
+//   console.log(`Its a central European country :/`)
+// }else{
+//   console.log(`Probably not a central European country :D`)
+// }
+
+// const change = neighbours.indexOf(`Sweden`);
+
+// if (change !== 0){
+//   neighbours[change] = `Republic of Sweden`;
+// };
+
+// console.log(neighbours);
+
+// Introduction to Objects
+
+const myCountry = {
+  country: `India`,
+  capital: `New Delhi`,
+  language: `Hindi`,
+  population: 130,
+  neighbours: `China , Sri Lanks , Pakistan`,
 }
+console.log(myCountry);
 
-const change = neighbours.indexOf(`Sweden`);
+// Dot v/s Bracket Notation
 
-if (change !== 0){
-  neighbours[change] = `Republic of Sweden`;
-};
+console.log(`${myCountry.country} has 58 million ${myCountry.languagelanguage} speaking people , ${myCountry.neighbours.length} neighbouring countries and a capital called ${myCountry.capital}`);
 
-console.log(neighbours);
+myCountry.population = 132;
+console.log(myCountry);
+
+myCountry[`population`] = 128;
+console.log(myCountry);
