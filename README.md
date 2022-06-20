@@ -12,4 +12,4 @@ However the solution of every assignments is also provided at the end of the pdf
     Hope you would love it ✌️. </p>
    <small>Credit : Jonas Schmedtmann</small>
    <hr>
-  <p>Show some love ❣️</p>
+  <p>Show some love by starring this repo ⭐😉</p>
