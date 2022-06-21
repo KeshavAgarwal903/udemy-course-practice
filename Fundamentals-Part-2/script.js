@@ -171,33 +171,33 @@
 // Retrieving and changing the data in Objects(dot v/s bracket notation)
 
 
-const Keshav = {
-  firstName: `Keshav`,
-  lastName: `Agarwal`,
-  age: 2037-2006,
-  job: `Programmer`,
-  friends: ['Michael' , 'Steve' , 'Bob']
-}
+// const Keshav = {
+//   firstName: `Keshav`,
+//   lastName: `Agarwal`,
+//   age: 2037-2006,
+//   job: `Programmer`,
+//   friends: ['Michael' , 'Steve' , 'Bob']
+// }
 
-console.log(Keshav)
+// console.log(Keshav)
 
-console.log(`${Keshav.firstName} has ${Keshav.friends.length} friends and his best friend is calles ${Keshav.friends[0]} ;)`);
+// console.log(`${Keshav.firstName} has ${Keshav.friends.length} friends and his best friend is calles ${Keshav.friends[0]} ;)`);
 
 // Retreving data from onject with property name :- 
 
 // Dot Notation
-console.log(Keshav.lastName);
+// console.log(Keshav.lastName);
 
 // Bracket Notation
-console.log(Keshav[`lastName`]);
+// console.log(Keshav[`lastName`]);
 
 // The differrence in both is that we can enter any type of expression in the square brackets !!
 
-// Using an expression
+// // Using an expression
 
-const nameKey = `Name`;
-console.log(Keshav['first' + nameKey]);
-console.log(Keshav['last' + nameKey]);
+// const nameKey = `Name`;
+// console.log(Keshav['first' + nameKey]);
+// console.log(Keshav['last' + nameKey]);
 
 // We can only use dot notation with the properties are already defined. 
 
@@ -211,7 +211,39 @@ console.log(Keshav['last' + nameKey]);
 
 // Adding value in the objects
 
-Keshav.location = `India `;
-Keshav[`twitter`] = `@keshav_903`;
+// Keshav.location = `India `;
+// Keshav[`twitter`] = `@keshav_903`;
 
-console.log(Keshav);
+// console.log(Keshav);
+
+// OBJECT METHODS
+
+//Using functions in objects
+const Keshav = {
+  firstName: `Keshav`,
+  lastName: `Agarwal`,
+  birthYear: 2006,
+  job: `Programmer`,
+  friends: ['Michael' , 'Steve' , 'Bob'],
+  hasDriversLicense: false,
+
+  // Only function expression works here not declaration
+  // calcAge: function(birthYear){
+  //   return 2037 - birthYear;
+  // }
+
+  calcAge: function(){
+    console.log(this);
+    return 2037 - this.birthYear
+    // THE THIS KEYWORD DENOTES THE OBJECT KESHAV HERE ! IT WILL FUNCTION THE SAME NO MATTER IF WE CHANGE THE NAME OF THE OBJECT !
+  }
+}; 
+
+if(Keshav.hasDriversLicense){
+  console.log(`${Keshav.firstName} is a ${2037 - Keshav.birthYear} year old ${Keshav.job} , and he has a driver's license`)
+}else{
+  console.log(`${Keshav.firstName} is a ${2037 - Keshav.birthYear} year old ${Keshav.job} , and he do not have a driver54's license `)
+}
+
+console.log(Keshav.calcAge());
+// console.log(Keshav[`calcAge`](2006));
