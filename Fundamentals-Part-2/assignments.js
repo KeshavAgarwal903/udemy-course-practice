@@ -86,21 +86,21 @@
 
 // Introduction to Objects
 
-const myCountry = {
-  country: `India`,
-  capital: `New Delhi`,
-  language: `Hindi`,
-  population: 130,
-  neighbours: `China , Sri Lanks , Pakistan`,
-}
-console.log(myCountry);
+// const myCountry = {
+//   country: `India`,
+//   capital: `New Delhi`,
+//   language: `Hindi`,
+//   population: 130,
+//   neighbours: `China , Sri Lanks , Pakistan`,
+// }
+// console.log(myCountry);
 
-// Dot v/s Bracket Notation
+// // Dot v/s Bracket Notation
 
-console.log(`${myCountry.country} has 58 million ${myCountry.languagelanguage} speaking people , ${myCountry.neighbours.length} neighbouring countries and a capital called ${myCountry.capital}`);
+// console.log(`${myCountry.country} has 58 million ${myCountry.languagelanguage} speaking people , ${myCountry.neighbours.length} neighbouring countries and a capital called ${myCountry.capital}`);
 
-myCountry.population = 132;
-console.log(myCountry);
+// myCountry.population = 132;
+// console.log(myCountry);
 
-myCountry[`population`] = 128;
-console.log(myCountry);
+// myCountry[`population`] = 128;
+// console.log(myCountry);
