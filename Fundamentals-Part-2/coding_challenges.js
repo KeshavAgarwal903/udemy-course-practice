@@ -39,7 +39,28 @@
 
 // console.log(bills , tips , total);
 
-//VIDEO SOLUTION
+// Coding challenge #3
 
+console.log(`Let's learn some JavaScript ;)`);
 
+const objMark = {
+  fullName:  `Mark Miller`,
+  mass: 78,
+  height: 1.69,
 
+  calcBMIMark : function(this) {
+    return (this.massmass / height) ** 2
+  }
+}
+
+const objJohn = {
+  fullName:  `John Smith`,
+  mass: 92,
+  height: 1.95,
+
+  calcBMIJohn : function(mass , height){
+    return (mass / height) ** 2
+  }
+}
+
+console.log(objJohn.calcBMIJohn , objMark.calcBMIMark);
