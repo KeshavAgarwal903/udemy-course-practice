@@ -219,31 +219,41 @@
 // OBJECT METHODS
 
 //Using functions in objects
-const Keshav = {
-  firstName: `Keshav`,
-  lastName: `Agarwal`,
-  birthYear: 2006,
-  job: `Programmer`,
-  friends: ['Michael' , 'Steve' , 'Bob'],
-  hasDriversLicense: false,
+// const Keshav = {
+//   firstName: `Keshav`,
+//   lastName: `Agarwal`,
+//   birthYear: 2006,
+//   job: `Programmer`,
+//   friends: ['Michael' , 'Steve' , 'Bob'],
+//   hasDriversLicense: false,
 
   // Only function expression works here not declaration
   // calcAge: function(birthYear){
   //   return 2037 - birthYear;
   // }
 
-  calcAge: function(){
-    console.log(this);
-    return 2037 - this.birthYear
-    // THE THIS KEYWORD DENOTES THE OBJECT KESHAV HERE ! IT WILL FUNCTION THE SAME NO MATTER IF WE CHANGE THE NAME OF THE OBJECT !
-  }
-}; 
+//   calcAge: function(){
+//     console.log(this);
+//     return 2037 - this.birthYear
+//     // THE THIS KEYWORD DENOTES THE OBJECT KESHAV HERE ! IT WILL FUNCTION THE SAME NO MATTER IF WE CHANGE THE NAME OF THE OBJECT !
+//   }
+// }; 
 
-if(Keshav.hasDriversLicense){
-  console.log(`${Keshav.firstName} is a ${2037 - Keshav.birthYear} year old ${Keshav.job} , and he has a driver's license`)
-}else{
-  console.log(`${Keshav.firstName} is a ${2037 - Keshav.birthYear} year old ${Keshav.job} , and he do not have a driver54's license `)
-}
+// if(Keshav.hasDriversLicense){
+//   console.log(`${Keshav.firstName} is a ${2037 - Keshav.birthYear} year old ${Keshav.job} , and he has a driver's license`)
+// }else{
+//   console.log(`${Keshav.firstName} is a ${2037 - Keshav.birthYear} year old ${Keshav.job} , and he do not have a driver54's license `)
+// }
 
-console.log(Keshav.calcAge());
+// console.log(Keshav.calcAge());
+
+// console.log(`Let's learn some JavaScript !!`)
 // console.log(Keshav[`calcAge`](2006));
+
+// * Iteration: The for Loop
+
+// The for loop keeps running till the condition is true.
+
+for(let rep = 1; rep <= 10 ; rep++){
+  console.log(`Lifting weights repetition ${rep}`);
+}
